@@ -15,41 +15,42 @@
       width="100"
       alt="Hiral Patel"
     />
+    <div>
+      <!-- Links -->
+      <!-- GitHub -->
+      <p>
+        <img
+          src="/Web_Fundamentals/GitHub.png"
+          height="25"
+          width="25"
+          alt="GitHub Icon"
+        />
+        <a href="https://github.com/Hero38">my github</a>
 
-    <!-- Links -->
-    <!-- GitHub -->
-    <p>
-      <img
-        src="/Web_Fundamentals/GitHub.png"
-        height="25"
-        width="25"
-        alt="GitHub Icon"
-      />
-      <a href="https://github.com/Hero38">my github</a>
-
-      <!-- Linked In -->
-      <img
-        src="/Web_Fundamentals/LinkedIn.png"
-        height="25"
-        width="25"
-        alt="LinkedIn
+        <!-- Linked In -->
+        <img
+          src="/Web_Fundamentals/LinkedIn.png"
+          height="25"
+          width="25"
+          alt="LinkedIn
       Icon"
-      />
-      <a href="https://LinkedIn.com/Hero38">my linkedin</a>
+        />
+        <a href="https://LinkedIn.com/Hero38">my linkedin</a>
 
-      <!-- Email -->
-      <img
-        src="/Web_Fundamentals/Email.png"
-        height="25"
-        width="25"
-        alt="Email Icon"
-      />
-      <a href="mailto:Hiralpatel3890@gmail.com">my email</a>
-    </p>
+        <!-- Email -->
+        <img
+          src="/Web_Fundamentals/Email.png"
+          height="25"
+          width="25"
+          alt="Email Icon"
+        />
+        <a href="mailto:Hiralpatel3890@gmail.com">my email</a>
+      </p>
+    </div>
     <br />
     <!-- Technologies Chart -->
+    <h3>Technologies</h3>
     <table>
-      <th><b>Technologies</b></th>
       <tr>
         <th>Front-End</th>
         <th>Python</th>
@@ -79,11 +80,9 @@
         <td>REST</td>
       </tr>
     </table>
-    <!-- Social Snakes -->
-    <p>
-      <strong>Social Snakes</strong>
-    </p>
 
+    <!-- Social Snakes -->
+    <h3>Social Snakes</h3>
     <img
       src="/Web_Fundamentals/SocialMedia.png"
       height="60"
