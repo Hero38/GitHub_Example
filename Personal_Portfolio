@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <h1>Hiral Patel</h1>
+    <!-- Photo -->
+    <img
+      src="/Web_Fundamentals/Photo.jpg"
+      height="100"
+      width="100"
+      alt="Hiral Patel"
+    />
+
+    <!-- Links -->
+    <!-- GitHub -->
+    <p>
+      <img
+        src="/Web_Fundamentals/GitHub.png"
+        height="25"
+        width="25"
+        alt="GitHub Icon"
+      />
+      <a href="https://github.com/Hero38">my github</a>
+
+      <!-- Linked In -->
+      <img
+        src="/Web_Fundamentals/LinkedIn.png"
+        height="25"
+        width="25"
+        alt="LinkedIn
+      Icon"
+      />
+      <a href="https://LinkedIn.com/Hero38">my linkedin</a>
+
+      <!-- Email -->
+      <img
+        src="/Web_Fundamentals/Email.png"
+        height="25"
+        width="25"
+        alt="Email Icon"
+      />
+      <a href="mailto:Hiralpatel3890@gmail.com">my email</a>
+    </p>
+    <br />
+    <!-- Technologies Chart -->
+    <table>
+      <th><b>Technologies</b></th>
+      <tr>
+        <th>Front-End</th>
+        <th>Python</th>
+        <th>JavaScript</th>
+        <th>Database</th>
+        <th>Concepts</th>
+      </tr>
+      <tr>
+        <td>HTML5</td>
+        <td>Django</td>
+        <td>Express</td>
+        <td>MySQL</td>
+        <td>AJAX</td>
+      </tr>
+      <tr>
+        <td>CSS3</td>
+        <td>Flask</td>
+        <td>Mongoose</td>
+        <td>MongoDB</td>
+        <td>OOP</td>
+      </tr>
+      <tr>
+        <td>Bootstrap</td>
+        <td>Unittest</td>
+        <td>React</td>
+        <td></td>
+        <td>REST</td>
+      </tr>
+    </table>
+    <!-- Social Snakes -->
+    <p>
+      <strong>Social Snakes</strong>
+    </p>
+
+    <img
+      src="/Web_Fundamentals/SocialMedia.png"
+      height="60"
+      width="60"
+      alt="Social Media App Icon"
+    />
+    <p>
+      Social Media App made in Python - <a href="https://google.com">code</a> |
+      <a href="https://google.com">deployed</a>
+    </p>
+    <!-- Contact Me -->
+    <h3>Contact Me</h3>
+    <p>
+      <label>Name: </label>
+      <input type="text" name="name" size="8" />
+
+      <label>Email: </label>
+      <input type="text" name="email" size="9" />
+    </p>
+    <p>
+      <label>Message:</label>
+      <textarea name="comment" cols="28" rows="3"></textarea>
+    </p>
+    <!-- Send Message -->
+    <p>
+      <input type="submit" value="Send Message" />
+    </p>
+  </body>
+</html>
