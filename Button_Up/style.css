@@ -1,0 +1,36 @@
+
+.search{
+    margin-left: 100px;
+    margin-top: 100px;
+    color:darkcyan ;    
+    border-width: 2px;
+    border-radius: 15px;
+    height: 30px;
+    width:  200px;
+    border-color:aquamarine;
+    border-style: solid;
+
+}
+.plus{
+    background-color:aquamarine;
+    color:white;
+    border-radius: 50%;
+    margin-left: 100px;
+    height: 50px;
+    width: 50px;
+    font-size: 40px;
+    border-color: aquamarine;
+    border-style: solid;
+}
+
+.account{
+    border-color: black;
+    background-color: blue;
+    color: white;
+    margin-left: 100px;
+    height: 50px;
+    width: 250px;
+    font-size: 20px;
+    box-shadow: 5px 5px 0px black ;
+}
+
