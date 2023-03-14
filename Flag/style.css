@@ -1,0 +1,23 @@
+
+*{
+    background-color: black;
+}
+
+div{
+    height: 300px;
+    width: 600px;
+    border-color: black;
+    background-color: white;
+
+}
+
+.circle{
+    border-color: red;
+    background-color: red;
+    height:75px;
+    width: 75px;
+    border-radius: 50%;
+    margin: 0 auto;
+    border-top: 500px;
+
+}
