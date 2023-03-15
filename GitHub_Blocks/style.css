@@ -1,0 +1,44 @@
+.container {
+  height: 1000px;
+  width: 1000px;
+  background-color: gray;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+h3 {
+  text-align: center;
+  text-decoration: underline;
+}
+.picture {
+  height: 200px;
+}
+
+.topContainer {
+  height: 250px;
+  width: 1000px;
+  background-color: aqua;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.midContainer {
+  height: 250px;
+  width: 1000px;
+  background-color: pink;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.botContainer {
+  height: 250px;
+  width: 1000px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
