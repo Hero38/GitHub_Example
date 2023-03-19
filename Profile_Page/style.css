@@ -39,7 +39,6 @@
 /* MAIN CONTAINER FOR BOTTOM OF PAGE */
 .botcontainer {
   height: 1100px;
-  background-color: red;
   margin: 0 auto;
   display: flex;
 }
@@ -49,7 +48,6 @@
   flex: 1;
   height: auto;
   width: auto;
-  background-color: blue;
   display: inline-block;
   vertical-align: middle;
 }
@@ -58,7 +56,6 @@
   margin: 0 auto;
   height: auto;
   width: 450px;
-  background-color: aqua;
   margin-top: 50px;
 }
 .bluebar {
@@ -108,7 +105,6 @@
   height: 250px;
   width: 450px;
   margin: 0 auto;
-  background-color: aquamarine;
   margin-top: 20px;
 }
 .education-bar {
@@ -136,7 +132,6 @@
   flex: 1;
   height: auto;
   width: auto;
-  background-color: purple;
   display: inline-block;
   vertical-align: middle;
 }
@@ -157,7 +152,6 @@
 .right-top {
   height: 220px;
   width: 450px;
-  background-color: brown;
   margin: 0 auto;
   margin-bottom: 30px;
   margin-top: 50px;
@@ -215,7 +209,6 @@
 .right-middle-main {
   height: 310px;
   width: 450px;
-  background-color: darkorange;
   margin: 0 auto;
 }
 .your-connections-number {
@@ -248,7 +241,6 @@
 .right-middle-list {
   height: 250px;
   width: 320px;
-  background-color: greenyellow;
   border-left: 5px solid grey;
   border-right: 5px solid grey;
   padding-top: 15px;
@@ -265,7 +257,6 @@
 .right-bottom-link {
   height: 40px;
   width: 320px;
-  background-color: pink;
   padding-top: 15px;
   border-left: 5px solid grey;
   border-right: 5px solid grey;
