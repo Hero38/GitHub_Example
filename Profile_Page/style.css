@@ -1,0 +1,279 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* TOP PROFILE BAR */
+.topbar {
+  height: 80px;
+  background-color: black;
+  color: white;
+  display: flex;
+  margin: 0 auto;
+}
+.profile {
+  flex: 1;
+  height: 100px;
+  padding: 25px;
+  text-align: center;
+}
+.barmid {
+  flex: 2;
+  padding: 25px;
+  font-size: larger;
+  text-align: left;
+  padding: 25px;
+}
+
+.barend {
+  flex: 1;
+  padding: 25px;
+  text-align: left;
+}
+.signout {
+  height: 30px;
+  width: 90px;
+  padding: 5px;
+  background-color: #17a2b8;
+  color: white;
+}
+/* MAIN CONTAINER FOR BOTTOM OF PAGE */
+.botcontainer {
+  height: 1100px;
+  background-color: red;
+  margin: 0 auto;
+  display: flex;
+}
+
+/* EVERYTHING FOR LEFT MAIN BOX*/
+.left {
+  flex: 1;
+  height: auto;
+  width: auto;
+  background-color: blue;
+  display: inline-block;
+  vertical-align: middle;
+}
+/* PROFILE PAGE (LEFT TOP)*/
+.left-top {
+  margin: 0 auto;
+  height: auto;
+  width: 450px;
+  background-color: aqua;
+  margin-top: 50px;
+}
+.bluebar {
+  height: 100px;
+  width: 450px;
+  background-color: #17a2b8;
+  border: 5px solid #17a2b8;
+}
+.userimg {
+  height: 100px;
+  border: 5px solid grey;
+  border-radius: 50%;
+  margin-top: 50px;
+  margin-left: 25px;
+  position: relative;
+}
+
+.name {
+  padding-top: 75px;
+  padding-left: 25px;
+}
+
+.map-marker {
+  height: 20px;
+  padding-left: 25px;
+}
+
+.gear {
+  height: 20px;
+  padding-left: 25px;
+}
+.indent {
+  padding-left: 25px;
+}
+
+.profilewhite {
+  height: 250px;
+  width: 450px;
+  background-color: white;
+  color: black;
+  border-left: 5px solid grey;
+  border-right: 5px solid grey;
+  border-bottom: 5px solid grey;
+}
+/* EDUCATION PART (LEFT BOTTOM)*/
+.left-bottom {
+  height: 250px;
+  width: 450px;
+  margin: 0 auto;
+  background-color: aquamarine;
+  margin-top: 20px;
+}
+.education-bar {
+  background-color: #333333;
+  height: 75px;
+  width: 460px;
+}
+.education {
+  padding: 25px;
+  color: white;
+  font-size: x-large;
+}
+.education-info {
+  background-color: white;
+  height: 300px;
+  width: 450px;
+  line-height: 2;
+  border-left: 5px solid grey;
+  border-right: 5px solid grey;
+  border-bottom: 5px solid grey;
+}
+
+/* EVERYTHING FOR RIGHT MAIN BOX */
+.right {
+  flex: 1;
+  height: auto;
+  width: auto;
+  background-color: purple;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.connection-settings {
+  height: 75px;
+  background-color: white;
+  color: black;
+}
+
+.request-info {
+  height: 60px;
+  width: 320px;
+  display: flex;
+}
+
+/* EVERYTHING FOR RIGHT TOP BOX*/
+.right-top {
+  height: 220px;
+  width: 450px;
+  background-color: brown;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  margin-top: 50px;
+}
+
+#circle {
+  height: 30px;
+  border-radius: 50%;
+  background-color: #cccccc;
+}
+
+.connection-requests {
+  background-color: #333333;
+  height: 45px;
+  width: 320px;
+  padding: 5px;
+}
+.connection {
+  color: white;
+  font-size: x-large;
+}
+
+.requests-list {
+  background-color: white;
+  height: 140px;
+  width: 320px;
+  line-height: 2;
+  border-left: 5px solid grey;
+  border-right: 5px solid grey;
+  border-bottom: 5px solid grey;
+  display: flex;
+  display: inline-block;
+  padding-top: 15px;
+}
+
+.images {
+  height: 40px;
+  border-radius: 50%;
+}
+.icon-accept {
+  height: 40px;
+  border-radius: 50%;
+  margin-left: 30px;
+}
+.icon-deny {
+  height: 40px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+#font-size {
+  font-size: x-large;
+}
+
+/* EVERYTHING FOR RIGHT MIDDLE BOX*/
+.right-middle-main {
+  height: 310px;
+  width: 450px;
+  background-color: darkorange;
+  margin: 0 auto;
+}
+.your-connections-number {
+  height: 60px;
+  width: 330px;
+  background-color: #333333;
+  display: flex;
+}
+.circle {
+  flex: 1;
+  border-radius: 70%;
+  width: 45px;
+  height: 20px;
+  padding: 5px;
+  background: #cccccc;
+  text-align: center;
+  margin-top: 15px;
+  margin-left: 25px;
+}
+.your-connections {
+  flex: 3;
+  height: 100px;
+  color: white;
+  text-align: center;
+  padding-top: 15px;
+  font-size: x-large;
+}
+
+/* RIGHT MIDDLE LIST OF CONNECTIONS */
+.right-middle-list {
+  height: 250px;
+  width: 320px;
+  background-color: greenyellow;
+  border-left: 5px solid grey;
+  border-right: 5px solid grey;
+  padding-top: 15px;
+}
+
+/* EVERYTHING FOR RIGHT BOTTOM BOX*/
+.right-bottom {
+  height: 100px;
+  width: 450px;
+  background-color: white;
+  margin: 0 auto;
+}
+
+.right-bottom-link {
+  height: 40px;
+  width: 320px;
+  background-color: pink;
+  padding-top: 15px;
+  border-left: 5px solid grey;
+  border-right: 5px solid grey;
+  border-bottom: 5px solid grey;
+}
+
+.bottom-link {
+  height: 40px;
+  padding-left: 30px;
+  font-size: large;
+}
