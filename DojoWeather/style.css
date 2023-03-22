@@ -1,0 +1,45 @@
+/*css reset*/
+* {
+  margin: 0px;
+  padding: 0px;
+}
+/* NAV BAR AREA */
+nav {
+  height: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: lightblue;
+}
+
+nav h1 {
+  font-size: 45px;
+}
+nav li {
+  list-style: none;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+/* MAIN SECTION */
+.main {
+  width: 700px;
+  height: 550px;
+  /* this rule below will center the block */
+  margin: 0 auto;
+  background-color: orange;
+}
+
+/* COOKIE SECTION */
+.cookie {
+  width: 700px;
+  height: 100px;
+  background-color: green;
+  margin: 0 auto;
+}

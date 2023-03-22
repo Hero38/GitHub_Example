@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- TOP BARS -->
+    <nav>Network</nav>
+    <div class="feed">Your Feed</div>
+    <!-- CONTAINER FOR THE MAIN PAGE -->
+    <div class="container">
+      <!------------ LEFT SIDE------------------------------------ -->
+      <div class="left">
+        <div class="user-info">
+          <div class="user-top">
+            <img
+              class="user-picture"
+              src="Icons/user-circle.png"
+              alt="Picture of User"
+            />
+          </div>
+          <div class="user-bottom1">
+            <a class="avatar" href="google.com">Add an avatar</a>
+          </div>
+          <div class="user-bottom2">
+            <h2>James Doe</h2>
+          </div>
+        </div>
+      </div>
+      <!------------ RIGHT SIDE------------------------------------ -->
+      <div class="right">
+        <!-- BOX WITH USER AND LIKE BUTTON INSIDE ----------------------------->
+        <div class="container-user">
+          <!----------- USER NAME AND NUMBER OF LIKES----- -->
+          <div class="top">
+            <h2>Some User</h2>
+            <p class="count">0 like(s)</p>
+            <button class="like-button" onclick="add1()">Like</button>
+          </div>
+
+          <!-------------------------- BOTTOM HALF OF THE BOX ----------------------->
+          <div class="bottom">
+            <p>This is some filler text, it can say anything we like</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
+
+<!-- p class="count">The count is 0</p>
+        <button class="like-button" onclick="add1()">+</button> -->
