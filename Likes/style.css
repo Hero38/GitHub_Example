@@ -13,7 +13,6 @@ nav {
 }
 /* YOUR FEED */
 .feed {
-  background-color: blue;
   height: 50px;
   width: 820px;
   margin: 0 auto;
@@ -25,7 +24,6 @@ nav {
 
 /* CONTAINER FOR THE MAIN PORTION OF THE PAGE */
 .container {
-  background-color: grey;
   display: flex;
   margin: 0 auto;
   height: 800px;
@@ -36,7 +34,6 @@ nav {
 
 .left {
   flex: 1;
-  background-color: green;
   padding-right: 10px;
   display: flex;
   margin: 0 auto;
@@ -83,7 +80,6 @@ nav {
 /* RIGHT SIDE OF THE PAGE */
 .right {
   flex: 2;
-  background-color: purple;
   padding-left: 10px;
 }
 
@@ -103,11 +99,15 @@ nav {
 }
 
 /* THINGS FOR THE LIKE BUTTON */
-.count {
+.count,
+.count2,
+.count3 {
   color: black;
 }
 
-.like-button {
+.like-button,
+.like-button2,
+.like-button3 {
   height: 30px;
   width: 60px;
   background-color: yellow;
@@ -125,7 +125,6 @@ div h2 {
   height: 125px;
   display: flex;
   text-align: left;
-  background-color: aqua;
   font-size: 24px;
   padding-left: 10px;
 }
